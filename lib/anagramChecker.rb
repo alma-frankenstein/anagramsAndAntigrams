@@ -48,8 +48,8 @@ class AnagramChecker
     phrase2_array = @phrase2.downcase.split("")
     if (phrase1_array & phrase2_array).empty?
       return "These phrases are antigrams!"
-    else 
-      return "not anagrams"
+    # else 
+    #   return "not antigrams"
     end
   end
 
@@ -66,6 +66,5 @@ class AnagramChecker
       are_words()
     end
   end
-
 end
 
