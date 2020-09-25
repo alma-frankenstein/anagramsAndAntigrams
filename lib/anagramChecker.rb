@@ -65,11 +65,6 @@ class AnagramChecker
     else 
       are_words()
     end
-    if (case_checker() == "not anagrams")
-      antigram_check()
-    else 
-      case_checker()
-    end
   end
 
 end
