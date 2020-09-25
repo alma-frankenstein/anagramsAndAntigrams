@@ -17,6 +17,11 @@ class AnagramChecker
   end
 
   def case_checker()
+    if @phrase1.downcase.split("").sort == @phrase2.downcase.split("").sort
+      return "they are anagrams"
+    else 
+      return "not anagrams"
+    end
   end
 end
 
