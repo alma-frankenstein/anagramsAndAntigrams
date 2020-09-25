@@ -32,7 +32,10 @@ describe(AnagramChecker) do
     end
   end
 
-  describe("#antigrams") do
-    
+  describe("#antigram_check") do
+    it ('checks whether the two phrases are antigrams') do
+      antigrams = AnagramChecker.new("hi", "bye")
+      expect(antigrams.antigram_check()).to(eq("These phrases are antigrams!"))
+    end
   end
 end
