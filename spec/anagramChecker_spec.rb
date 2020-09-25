@@ -38,4 +38,8 @@ describe(AnagramChecker) do
       expect(antigrams.antigram_check()).to(eq("These phrases are antigrams!"))
     end
   end
+
+  describe("#letters_only") do
+    
+  end
 end

@@ -52,5 +52,8 @@ class AnagramChecker
       return false
     end
   end
+
+  def letters_only()
+  end
 end
 
