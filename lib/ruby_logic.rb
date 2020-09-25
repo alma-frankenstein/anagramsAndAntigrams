@@ -26,8 +26,19 @@ class AnagramChecker
     end
   end
 
-  def is_word()
+  def is_word(word_to_check)
+    word_array = word_to_check.downcase.split("")
+    if (word_array & @vowels).empty?
+      return "please enter real words"
+    else 
+      return true
+    end
   end
+
+  # def are_words()
+  #   inputs = [@phrase1, @phrase2]
+
+  # end
 end
 
-# "Coffee".downcase.split("").sort
+# >> ['Cat', 'Dog', 'Bird'].include? 'Dog'

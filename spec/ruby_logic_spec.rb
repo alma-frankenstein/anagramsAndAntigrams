@@ -17,11 +17,12 @@ describe(AnagramChecker) do
     end
   end
 
-    describe("#is_word") do
-    # it('checks whether a word contains vowels') do
-    #   nonsense_input = AnagramChecker.new("cat", "ctt")
-    #   expect(nonsense_input.are_words()).to(eq("Both inputs must have vowels"))
-    #end
+  describe("#is_word") do
+    it('checks whether a word contains vowels') do
+      nonsense_input = AnagramChecker.new("cat", "ctt")
+      expect(nonsense_input.is_word("xxx")).to(eq("please enter real words"))
+      # expect(nonsense_input.is_word("cat")).to(eq(true))
+    end
   end
 
   # describe("#are_words") do
