@@ -2,10 +2,12 @@ require('pry')
 
 class AnagramChecker
   attr_accessor(:phrase1, :phrase2)
+  attr_reader(:vowels)
 
   def initialize(phrase1, phrase2)
     @phrase1 = phrase1
     @phrase2 = phrase2
+    @vowels = ["a", "e", "i", "o", "u", "y"]
   end
 
   def basic_anagram()
@@ -22,6 +24,9 @@ class AnagramChecker
     else 
       return "not anagrams"
     end
+  end
+
+  def is_word()
   end
 end
 

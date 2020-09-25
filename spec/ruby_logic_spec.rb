@@ -16,4 +16,7 @@ describe(AnagramChecker) do
       expect(different_cases.case_checker()).to(eq("they are anagrams"))
     end
   end
+
+  describe("#is_word") do
+  end
 end

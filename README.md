@@ -18,7 +18,7 @@ Check whether two inputs are anagrams or, if not, whether they're antigrams (con
 
 * Check whether both inputs are actually words (i.e. that they contain vowels)
   * Input: "xtt" and "ttx"
-  * Output: "They are not anagrams"
+  * Output: "Both inputs have to be words"
 
 * If the two words aren't anagrams, check whether they're antigrams (no letters match)
   * Input: "up" and "down"
