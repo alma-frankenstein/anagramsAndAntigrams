@@ -1,10 +1,32 @@
-# 
+# Anagrams and Antigrams
 
 #### Created by Alma Frankenstein, 2020
 
 ## Description
 
+Check whether two inputs are anagrams
+
 ## Specs
+
+* Check if two words are anagrams
+  * Input: "cat" and "act"
+  * Output: true
+
+* Check that anagrams are found even if the two words have different cases
+  * Input: "Cat" and "Act"
+  * Output: true
+
+* Check whether the inputs are actually words
+  * Input: "cat" and "123"
+  * Output: false
+
+* If the two words aren't anagrams, check whether they're antigrams (no letters match)
+  * Input: "up" and "down"
+  * Output: true
+
+* Check for multi word phrases
+  * Input: "cat on" and "act no"
+  * Output: true
 
 ## Setup
 
