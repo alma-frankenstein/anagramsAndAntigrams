@@ -31,4 +31,8 @@ describe(AnagramChecker) do
       expect(nonsense_input.are_words()).to(eq("make sure both words have vowels"))
     end
   end
+
+  describe("#antigrams") do
+    
+  end
 end

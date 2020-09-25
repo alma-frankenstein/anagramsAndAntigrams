@@ -42,5 +42,8 @@ class AnagramChecker
       return true
     end
   end
+
+  def antigrams()
+  end
 end
 
