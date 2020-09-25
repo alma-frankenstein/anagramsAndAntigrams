@@ -1,10 +1,10 @@
 # Anagrams and Antigrams
 
-#### Created by Alma Frankenstein, 2020
+#### Created by Alma Frankenstein for Epicodus, 2020
 
 ## Description
 
-Check whether two inputs are anagrams or, if not, whether they're antigrams (contain none of the same letters)
+Check whether two inputs are anagrams or, if not, whether they're antigrams (contain none of the same letters). It can take user imput through the command line, and ignore case differences, non-letter characters, and white space.
 
 ## Specs
 
@@ -22,7 +22,7 @@ Check whether two inputs are anagrams or, if not, whether they're antigrams (con
 
 * If the two words aren't anagrams, check whether they're antigrams (no letters match)
   * Input: "up" and "down"
-  * Output: "They are anagrams"
+  * Output: "They are antigrams"
 
 * Check for multi word phrases
   * Input: "cat on" and "act no"
@@ -43,9 +43,9 @@ Each time the Gemfile is changed, run ```bundle install```
 
 To run a script in the terminal:
 
-Enter ```chmod +x <filename.rb>``` to get executable permission
+Enter ```chmod +x ruby_script.rb``` to get executable permission
 
-Enter ```./<filename.rb>``` to run the script
+Enter ```ruby_script.rb``` to run the script
 
 
 

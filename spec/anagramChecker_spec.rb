@@ -66,5 +66,4 @@ describe(AnagramChecker) do
       expect(anagramCheck.all_together()).to(eq("make sure both words have vowels"))
     end    
   end
-
 end
