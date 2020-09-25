@@ -9,3 +9,7 @@ word2 = gets.chomp
 
 anaCheck = AnagramChecker.new(word1, word2)
 puts anaCheck.all_together()
+
+if anaCheck.all_together() == "not anagrams"
+  puts anaCheck.antigram_check()
+end
