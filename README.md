@@ -4,7 +4,7 @@
 
 ## Description
 
-Check whether two inputs are anagrams
+Check whether two inputs are anagrams or, if not, whether they're antigrams (contain none of the same letters)
 
 ## Specs
 
@@ -51,7 +51,8 @@ Enter ```./<filename.rb>``` to run the script
 
 ## Technologies Used
 
-*
+* Ruby
+* rspec
 
 ## Contact Details
 
