@@ -53,4 +53,18 @@ describe(AnagramChecker) do
     end    
   end
 
+  describe("#all_together") do
+    it('strips non-letters, ignores case, tells whether they are anagrams') do
+      anagramChecker = AnagramChecker.new("Excellent", "action")
+      expect(anagramChecker.all_together()).to(eq("not anagrams"))
+    end    
+  end
+
+  # describe("#all_together") do
+  #   it('strips non-letters, ignores case, tells whether they are anagrams') do
+  #     anagramChecker = AnagramChecker.new("cat", "ctt")
+  #     expect(anagramChecker.all_together()).to(eq("make sure both words have vowels"))
+  #   end    
+  # end
+
 end
