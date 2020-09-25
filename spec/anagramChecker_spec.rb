@@ -46,4 +46,11 @@ describe(AnagramChecker) do
     end    
   end
 
+  describe("#all_together") do
+    # it('removes all non-letters from the input') do
+    #   input_letters = AnagramChecker.new("hi", "bye")
+    #   expect(input_letters.letters_only("pizza time!")).to(eq("pizzatime"))
+    # end    
+  end
+
 end
