@@ -49,7 +49,7 @@ class AnagramChecker
     if (phrase1_array & phrase2_array).empty?
       return "These phrases are antigrams!"
     else 
-      return false
+      return "not anagrams"
     end
   end
 
@@ -64,6 +64,11 @@ class AnagramChecker
       case_checker()
     else 
       are_words()
+    end
+    if (case_checker() == "not anagrams")
+      antigram_check()
+    else 
+      case_checker()
     end
   end
 
