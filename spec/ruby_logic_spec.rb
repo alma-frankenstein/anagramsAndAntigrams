@@ -26,9 +26,9 @@ describe(AnagramChecker) do
   end
 
   describe("#are_words") do
-    # it('checks whether both inputs contain vowels') do
-    #   nonsense_input = AnagramChecker.new("cat", "ctt")
-    #   expect(nonsense_input.are_words()).to(eq("Both inputs must have vowels"))
-    # end
+    it('checks whether both inputs contain vowels') do
+      nonsense_input = AnagramChecker.new("cat", "ctt")
+      expect(nonsense_input.are_words()).to(eq("make sure both words have vowels"))
+    end
   end
 end

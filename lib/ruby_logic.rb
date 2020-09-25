@@ -36,7 +36,11 @@ class AnagramChecker
   end
 
   def are_words()
+    if is_word(@phrase1) != true || is_word(@phrase2) != true
+      return "make sure both words have vowels"
+    else 
+      return true
+    end
   end
 end
 
-# >> ['Cat', 'Dog', 'Bird'].include? 'Dog'
