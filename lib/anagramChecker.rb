@@ -53,19 +53,11 @@ class AnagramChecker
     end
   end
 
-  def letters_only(phrase) # apply to each input
+  def letters_only(phrase)
     just_letters = phrase.gsub(/[^a-z]/i, "")
   end
 
   def all_together()
-    # take inputs
-    # remove non-letters from each
-    # make sure they're words
-      # if not, return message
-    # check if they're anagrams
-      # if yes, return message
-    # check if they're antigrams
-      # if yes, return message
     @phrase1 = letters_only(@phrase1)
     @phrase2 = letters_only(@phrase2)
     if (are_words() == true)
@@ -74,12 +66,6 @@ class AnagramChecker
       are_words()
     end
   end
-
-# def replacer(sentence, word_to_replace, replace_with)
-#   # changedsentence = sentence.gsub(/"#{word_to_replace}"/, "#{replace_with}")
-#   changedsentence = sentence.gsub(word_to_replace, replace_with)
-#   return changedsentence
-# end
 
 end
 
