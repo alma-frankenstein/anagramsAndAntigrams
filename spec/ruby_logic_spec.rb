@@ -9,4 +9,11 @@ describe(AnagramChecker) do
       expect(lower_checker.basic_anagram()).to(eq("they are anagrams"))
     end
   end
+
+  describe("#case_checker") do
+    # it('checks whether two words with different cases are anagrams') do
+    #   lower_checker = AnagramChecker.new("cat", "act")
+    #   expect(lower_checker.basic_anagram()).to(eq("they are anagrams"))
+    # end
+  end
 end

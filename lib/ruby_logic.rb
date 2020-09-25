@@ -15,4 +15,9 @@ class AnagramChecker
       return "not anagrams"
     end
   end
+
+  def case_checker()
+  end
 end
+
+# "Coffee".downcase.split("").sort
