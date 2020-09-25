@@ -1,3 +1,11 @@
 #!/usr/bin/env ruby
 
-require ('./lib/name_of_ruby_file_goes_here') # run back-end logic as a script
+require ('./lib/anagramChecker') 
+
+puts "Let's check for anagrams! Please enter a word"
+word1 = gets.chomp
+puts "Enter another word to compare"
+word2 = gets.chomp
+
+anaCheck = AnagramChecker.new(word1, word2)
+puts anaCheck.all_together()
