@@ -68,8 +68,11 @@ class AnagramChecker
       # if yes, return message
     @phrase1 = letters_only(@phrase1)
     @phrase2 = letters_only(@phrase2)
-    are_words()
-    case_checker()
+    if (are_words() == true)
+      case_checker()
+    else 
+      are_words()
+    end
   end
 
 # def replacer(sentence, word_to_replace, replace_with)
