@@ -7,4 +7,8 @@ class AnagramChecker
     @phrase1 = phrase1
     @phrase2 = phrase2
   end
+
+  def basic_anagram()
+    # if @phrase1.split("").sort == @phrase1.split("").sort
+  end
 end
