@@ -38,8 +38,8 @@ class AnagramChecker
   def are_words()
     if is_word(@phrase1) != true || is_word(@phrase2) != true
       return "make sure both words have vowels"
-    else 
-      return true
+    # else 
+    #   return true
     end
   end
 
@@ -66,6 +66,10 @@ class AnagramChecker
       # if yes, return message
     # check if they're antigrams
       # if yes, return message
+    @phrase1 = letters_only(@phrase1)
+    @phrase2 = letters_only(@phrase2)
+    are_words()
+    case_checker()
   end
 
 # def replacer(sentence, word_to_replace, replace_with)

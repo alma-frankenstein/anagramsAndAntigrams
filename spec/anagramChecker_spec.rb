@@ -47,10 +47,10 @@ describe(AnagramChecker) do
   end
 
   describe("#all_together") do
-    # it('removes all non-letters from the input') do
-    #   input_letters = AnagramChecker.new("hi", "bye")
-    #   expect(input_letters.letters_only("pizza time!")).to(eq("pizzatime"))
-    # end    
+    it('strips non-letters, ignores case, tells whether they are anagrams') do
+      anagramChecker = AnagramChecker.new("Cat on I!", "action")
+      expect(anagramChecker.all_together()).to(eq("they are anagrams"))
+    end    
   end
 
 end
