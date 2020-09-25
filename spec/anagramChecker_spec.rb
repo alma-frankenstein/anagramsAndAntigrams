@@ -42,4 +42,11 @@ describe(AnagramChecker) do
   describe("#letters_only") do
     
   end
+
+   
+# def replacer(sentence, word_to_replace, replace_with)
+#   # changedsentence = sentence.gsub(/"#{word_to_replace}"/, "#{replace_with}")
+#   changedsentence = sentence.gsub(word_to_replace, replace_with)
+#   return changedsentence
+# end
 end
