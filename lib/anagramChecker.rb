@@ -53,7 +53,15 @@ class AnagramChecker
     end
   end
 
-  def letters_only()
+  def letters_only(phrase) # apply to each input
+    just_letters = phrase.gsub(/[^a-z]/i, "")
   end
+
+# def replacer(sentence, word_to_replace, replace_with)
+#   # changedsentence = sentence.gsub(/"#{word_to_replace}"/, "#{replace_with}")
+#   changedsentence = sentence.gsub(word_to_replace, replace_with)
+#   return changedsentence
+# end
+
 end
 

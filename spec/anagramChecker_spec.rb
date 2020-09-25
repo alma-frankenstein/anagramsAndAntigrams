@@ -40,13 +40,10 @@ describe(AnagramChecker) do
   end
 
   describe("#letters_only") do
-    
+    it('removes all non-letters from the input') do
+      input_letters = AnagramChecker.new("hi", "bye")
+      expect(input_letters.letters_only("pizza time!")).to(eq("pizzatime"))
+    end    
   end
 
-   
-# def replacer(sentence, word_to_replace, replace_with)
-#   # changedsentence = sentence.gsub(/"#{word_to_replace}"/, "#{replace_with}")
-#   changedsentence = sentence.gsub(word_to_replace, replace_with)
-#   return changedsentence
-# end
 end
