@@ -35,10 +35,8 @@ class AnagramChecker
     end
   end
 
-  # def are_words()
-  #   inputs = [@phrase1, @phrase2]
-
-  # end
+  def are_words()
+  end
 end
 
 # >> ['Cat', 'Dog', 'Bird'].include? 'Dog'
