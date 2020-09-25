@@ -9,6 +9,10 @@ class AnagramChecker
   end
 
   def basic_anagram()
-    # if @phrase1.split("").sort == @phrase1.split("").sort
+    if @phrase1.split("").sort == @phrase2.split("").sort
+      return "they are anagrams"
+    else 
+      return "not anagrams"
+    end
   end
 end
