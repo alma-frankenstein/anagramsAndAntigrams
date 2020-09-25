@@ -10,31 +10,31 @@ Check whether two inputs are anagrams or, if not, whether they're antigrams (con
 
 * Check if two words are anagrams
   * Input: "cat" and "act"
-  * Output: true
+  * Output: "They are anagrams"
 
 * Check that anagrams are found even if the two words have different cases
   * Input: "Cat" and "Act"
-  * Output: true
+  * Output: "They are anagrams"
 
 * Check whether the inputs are actually words
   * Input: "cat" and "123"
-  * Output: false
-
+  * Output: "They are not anagrams"
+  
 * If the two words aren't anagrams, check whether they're antigrams (no letters match)
   * Input: "up" and "down"
-  * Output: true
+  * Output: "They are anagrams"
 
 * Check for multi word phrases
   * Input: "cat on" and "act no"
-  * Output: true
+  * Output: "They are anagrams"
 
 ## Setup
 
 Clone this repo using:
 
-```git clone https://github.com/alma-frankenstein/galacticCalculator myRepo```
+```git clone https://github.com/alma-frankenstein/anagramsAndAntigrams anagramsAndAntigrams```
 
-Cd to the myRepo directory.
+Cd to the anagramsAndAntigrams directory.
 
 Install Bundler with ```gem install bundler```
 
